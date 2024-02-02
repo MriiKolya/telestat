@@ -1,0 +1,10 @@
+{
+    "empty_field": "This field is required",
+    "name": "Name",
+    "description": "Description",
+    "add": "Add",
+    "addChat": "Add Chat",
+    "editChat": "Edit Chat",
+    "cityNotFound": "Місто не знайдено в списку.",
+    "list": "List"
+}
