@@ -14,7 +14,6 @@ class ListCityService {
 
   Future<List<CityModel>> getList() async {
     var box = await _box;
-    box.deleteAll(box.values.toList());
     return box.values.toList();
   }
 

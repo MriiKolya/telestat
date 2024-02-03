@@ -1,6 +1,6 @@
 import 'package:telestat/features/list_city/model/city_model.dart';
 import 'package:telestat/features/list_city/repository/list_city_interface.dart';
-import 'package:telestat/service/list_city_service.dart';
+import 'package:telestat/features/list_city/data/list_city_service.dart';
 
 class CityListRepository implements ICityListRepository {
   final ListCityService _service = ListCityService();

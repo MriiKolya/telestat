@@ -6,8 +6,8 @@ import 'package:telestat/features/list_city/cubit/list_city_cubit.dart';
 import 'package:telestat/features/list_city/list_city.dart';
 import 'package:telestat/features/list_city/model/city_model.dart';
 import 'package:telestat/features/list_city/repository/list_city_repository.dart';
-import 'package:telestat/generated/l10n.dart';
 import 'package:hive_flutter/hive_flutter.dart';
+import 'package:telestat/generated/l10n.dart';
 
 import 'config/locale/cubit/localization_cubit.dart';
 
