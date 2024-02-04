@@ -1,20 +1,17 @@
 part of 'localization_cubit.dart';
 
-enum LocalizationStatus { loading, success, error, initial }
+enum LocalizationStatus { en, uk }
 
 class LocalizationState {
   final LocalizationStatus status;
   final Locale locale;
-  final Object? error;
-
   const LocalizationState({
     required this.locale,
     required this.status,
-    this.error,
   });
 
   factory LocalizationState.initial() => const LocalizationState(
-        status: LocalizationStatus.initial,
+        status: LocalizationStatus.en,
         locale: Locale('en'),
       );
 
@@ -24,7 +21,5 @@ class LocalizationState {
     Locale? locale,
   }) =>
       LocalizationState(
-          status: status ?? this.status,
-          error: error ?? this.error,
-          locale: locale ?? this.locale);
+          status: status ?? this.status, locale: locale ?? this.locale);
 }
